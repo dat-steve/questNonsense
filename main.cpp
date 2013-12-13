@@ -3,18 +3,18 @@ using namespace std;
 
 class QuestFuncs{
 public:
-    void questPickup(){
+    void questPickup;
         cout << "You have picked up a quest!" << endl;
 
 
-    void questTurnin()
+    void questTurnin;
         cout << "You have turned in your quest!" << endl;
 
 
-    void questCurrent()
+    void questCurrent;
         cout << "You already are on this quest!" << endl;
 
-};
+}
 int main(){
 QuestFuncs questObject;
 int quest;
